@@ -35,10 +35,6 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/audio_ext_spkr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_ext_spkr.conf \
     $(DEVICE_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 2160
-TARGET_SCREEN_WIDTH := 1080
-
 # Camera
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/camera/mot_ov12a10_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_ov12a10_chromatix.xml \
@@ -51,7 +47,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     CameraGo
 
-# Dolby 
+# Dolby
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
     $(DEVICE_PATH)/configs/audio/media_codecs_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor.xml \

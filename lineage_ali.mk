@@ -18,11 +18,11 @@ $(call inherit-product, device/motorola/ali/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-TARGET_BOOT_ANIMATION_RES := 1080
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 2160
+TARGET_BOOTANIMATION_HALF_RES := true
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model
 
