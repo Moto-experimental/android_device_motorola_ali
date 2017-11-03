@@ -74,3 +74,6 @@ $(call inherit-product, device/motorola/msm8953-common/msm8953.mk)
 #Soong target hals patch to caf
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# Verity
+PRODUCT_VENDOR_VERITY_PARTITION := /dev/block/platform/soc/7824900.sdhci/by-name/vendor
