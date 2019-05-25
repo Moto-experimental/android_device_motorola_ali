@@ -53,7 +53,7 @@
         <value>154.353</value>
         <value>257.340</value>
     </array>
-    <item name="cpu.idle">3.993</item>
-    <item name="cpu.awake">2.969</item>
+    <item name="cpu.suspend">3.993</item>
+    <item name="cpu.idle">2.969</item>
     <item name="battery.capacity">3000</item>
 </device>
