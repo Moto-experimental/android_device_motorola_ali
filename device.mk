@@ -53,8 +53,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.1-service \
     com.android.nfc_extras \
-    SecureElement \
-    NfcNci \
     nqnfcee_access.xml \
     nqnfcse_access.xml \
     Tag
@@ -70,8 +68,8 @@ PRODUCT_COPY_FILES += \
 
 # Init
 PRODUCT_PACKAGES += \
-	fstab.qcom \
-	init.ali.rc
+    fstab.qcom \
+    init.ali.rc
 
 # Sensors
 PRODUCT_COPY_FILES += \
@@ -90,5 +88,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/qcom-caf/msm8996/display \
     hardware/qcom-caf/msm8996/media \
-    hardware/qcom-caf/msm8996/audio \
-
+    hardware/qcom-caf/msm8996/audio
