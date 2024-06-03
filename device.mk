@@ -43,10 +43,6 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/camera/s5k4h7_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k4h7_chromatix.xml \
     $(DEVICE_PATH)/configs/camera/sdm450_mot_ali_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sdm450_mot_ali_camera.xml
 
-# CameraGo
-PRODUCT_PACKAGES += \
-    CameraGo
-
 # Dolby
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
