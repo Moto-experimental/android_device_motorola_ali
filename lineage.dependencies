@@ -8,11 +8,5 @@
     "repository": "vendor_motorola_ali",
     "target_path": "vendor/motorola/ali",
     "branch": "lineage-19.1"
-  },
-  {
-    "remote": "github",
-    "repository": "LineageOS/android_system_qcom",
-    "target_path": "system/qcom",
-    "branch": "lineage-19.1"
   }
 ]
