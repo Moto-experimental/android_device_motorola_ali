@@ -22,7 +22,7 @@ DEVICE_PATH := device/motorola/ali
 TARGET_OTA_ASSERT_DEVICE := ali
 
 # Display
-TARGET_SCREEN_DENSITY := 480
+TARGET_SCREEN_DENSITY := 420
 
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
