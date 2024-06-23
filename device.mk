@@ -53,8 +53,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.1-service \
     com.android.nfc_extras \
-    nqnfcee_access.xml \
-    nqnfcse_access.xml \
     Tag
 
 PRODUCT_COPY_FILES += \
