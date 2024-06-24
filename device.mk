@@ -21,6 +21,7 @@ DEVICE_PATH := device/motorola/ali
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
+    $(DEVICE_PATH)/overlay-lineage \
     $(DEVICE_PATH)/overlay
 
 # Screen density
