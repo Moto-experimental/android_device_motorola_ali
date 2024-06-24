@@ -1,12 +1,6 @@
 [
   {
-    "repository": "vendor_motorola_msm8953-common",
-    "target_path": "vendor/motorola/msm8953-common",
-    "branch": "lineage-19.1"
-  },
-  {
-    "repository": "vendor_motorola_ali",
-    "target_path": "vendor/motorola/ali",
-    "branch": "lineage-19.1"
+    "repository": "android_device_motorola_msm8953-common",
+    "target_path": "device/motorola/msm8953-common"
   }
 ]
