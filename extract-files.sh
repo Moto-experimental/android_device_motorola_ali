@@ -12,7 +12,7 @@ function blob_fixup() {
             sed -i "s|service.bootanim.exit|service.bootanim.hold|g" "${2}"
             ;;
         vendor/lib/hw/audio.primary.msm8953.so)
-            "${PATCHELF}" --replace-needed libcutils.so libprocessgroup.so "${2}"
+            "${PATCHELF}" --replace-needed "libcutils.so" "libprocessgroup.so" "${2}"
             ;;
         vendor/lib/libmmcamera_vstab_module.so)
             sed -i "s/libgui/libwui/" "${2}"
@@ -23,6 +23,9 @@ function blob_fixup() {
         vendor/etc/init/motorola.hardware.audio.adspd@1.0-service.rc)
             sed -i "s/audio media/audio media input/" "${2}"
             ;;
+        vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice)
+            "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
+
     esac
 }
 

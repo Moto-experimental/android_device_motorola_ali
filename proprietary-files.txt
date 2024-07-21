@@ -758,7 +758,7 @@ vendor/lib/hw/keystore.msm8953.so|c56d3768e04fc180d844dbca94be8c27770e37d5
 vendor/lib64/hw/keystore.msm8953.so|9660e1c13a3589114cf18db58e5b3c3c9e14059b
 
 # Fingerprint
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice|b1d29669dac7f9e1993b6a975825cee8a51571f2
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc|7574aa1db5fc0a8343cdd8910e62994d650fbe59
 vendor/lib/com.fingerprints.extension@1.0.so
 
