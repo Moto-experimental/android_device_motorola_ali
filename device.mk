@@ -29,6 +29,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_AAPT_CONFIG := normal
 
 # Audio
+PRODUCT_PACKAGES += \
+    audio.primary.msm8953 \
+    libqcompostprocbundle
+
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
     $(DEVICE_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
