@@ -26,7 +26,8 @@ TARGET_SCREEN_DENSITY := 480
 
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
-TARGET_KERNEL_CONFIG := ali_defconfig
+TARGET_KERNEL_CONFIG += vendor/moto/ali.config
+TARGET_KERNEL_RECOVERY_CONFIG += vendor/moto/ali.config
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
